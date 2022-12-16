@@ -1,13 +1,17 @@
-import React from 'react'
-import "./App.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Formulaire from './componets/Formulaire';
-import Navbarr from './componets/Navbarr';
+import Adresse from "./componets/Adresse"
+import Img from "./componets/Img"
+import Name from "./componets/Name"
+
+
 function App() {
   return (
-    <div className='app'>
-      <Navbarr/>
-      <Formulaire/>
+    <div>
+      <Name/>
+      <Adresse/>
+      <Img/>
+
+
+
     </div>
   )
 }
